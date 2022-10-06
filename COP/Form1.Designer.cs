@@ -41,6 +41,9 @@ namespace COP
             this.input = new COP.Components.Input();
             this.dropdown = new COP.Components.Dropdown();
             this.buttonGetList = new System.Windows.Forms.Button();
+            this.buttonGetLineChartExcel = new System.Windows.Forms.Button();
+            this.buttonGetConfigTableExcel = new System.Windows.Forms.Button();
+            this.buttonGetContextExcel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonCleanList
@@ -116,6 +119,7 @@ namespace COP
             // 
             this.list1.Location = new System.Drawing.Point(346, 30);
             this.list1.Name = "list1";
+            this.list1.SelectedRowIndex = -1;
             this.list1.Size = new System.Drawing.Size(389, 150);
             this.list1.TabIndex = 8;
             // 
@@ -145,11 +149,44 @@ namespace COP
             this.buttonGetList.UseVisualStyleBackColor = true;
             this.buttonGetList.Click += new System.EventHandler(this.buttonGetList_Click);
             // 
+            // buttonGetLineChartExcel
+            // 
+            this.buttonGetLineChartExcel.Location = new System.Drawing.Point(598, 281);
+            this.buttonGetLineChartExcel.Name = "buttonGetLineChartExcel";
+            this.buttonGetLineChartExcel.Size = new System.Drawing.Size(112, 23);
+            this.buttonGetLineChartExcel.TabIndex = 16;
+            this.buttonGetLineChartExcel.Text = "Get Line Chart Excel";
+            this.buttonGetLineChartExcel.UseVisualStyleBackColor = true;
+            this.buttonGetLineChartExcel.Click += new System.EventHandler(this.buttonGetLineChartExcel_Click);
+            // 
+            // buttonGetConfigTableExcel
+            // 
+            this.buttonGetConfigTableExcel.Location = new System.Drawing.Point(480, 281);
+            this.buttonGetConfigTableExcel.Name = "buttonGetConfigTableExcel";
+            this.buttonGetConfigTableExcel.Size = new System.Drawing.Size(93, 23);
+            this.buttonGetConfigTableExcel.TabIndex = 15;
+            this.buttonGetConfigTableExcel.Text = "Get Table Excel";
+            this.buttonGetConfigTableExcel.UseVisualStyleBackColor = true;
+            this.buttonGetConfigTableExcel.Click += new System.EventHandler(this.buttonGetConfigTableExcel_Click);
+            // 
+            // buttonGetContextExcel
+            // 
+            this.buttonGetContextExcel.Location = new System.Drawing.Point(342, 281);
+            this.buttonGetContextExcel.Name = "buttonGetContextExcel";
+            this.buttonGetContextExcel.Size = new System.Drawing.Size(112, 23);
+            this.buttonGetContextExcel.TabIndex = 14;
+            this.buttonGetContextExcel.Text = "Get Context Excel";
+            this.buttonGetContextExcel.UseVisualStyleBackColor = true;
+            this.buttonGetContextExcel.Click += new System.EventHandler(this.buttonGetContextExcel_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonGetLineChartExcel);
+            this.Controls.Add(this.buttonGetConfigTableExcel);
+            this.Controls.Add(this.buttonGetContextExcel);
             this.Controls.Add(this.buttonGetList);
             this.Controls.Add(this.textBoxForDropdown);
             this.Controls.Add(this.buttonSetDropdown);
@@ -182,6 +219,9 @@ namespace COP
         private System.Windows.Forms.Button buttonSetDropdown;
         private System.Windows.Forms.TextBox textBoxForDropdown;
         private System.Windows.Forms.Button buttonGetList;
+        private System.Windows.Forms.Button buttonGetLineChartExcel;
+        private System.Windows.Forms.Button buttonGetConfigTableExcel;
+        private System.Windows.Forms.Button buttonGetContextExcel;
     }
 }
 

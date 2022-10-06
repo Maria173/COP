@@ -1,0 +1,11 @@
+C:\Шестакова\COP\NonVisualComponents\bin\Debug\NonVisualComponents.dll
+C:\Шестакова\COP\NonVisualComponents\bin\Debug\NonVisualComponents.pdb
+C:\Шестакова\COP\NonVisualComponents\bin\Debug\Spire.Pdf.dll
+C:\Шестакова\COP\NonVisualComponents\bin\Debug\Spire.XLS.dll
+C:\Шестакова\COP\NonVisualComponents\bin\Debug\Microsoft.mshtml.dll
+C:\Шестакова\COP\NonVisualComponents\bin\Debug\Spire.Pdf.xml
+C:\Шестакова\COP\NonVisualComponents\bin\Debug\Spire.XLS.xml
+C:\Шестакова\COP\NonVisualComponents\obj\Debug\NonVisualComponents.csproj.CoreCompileInputs.cache
+C:\Шестакова\COP\NonVisualComponents\obj\Debug\NonVisualComponents.csproj.CopyComplete
+C:\Шестакова\COP\NonVisualComponents\obj\Debug\NonVisualComponents.dll
+C:\Шестакова\COP\NonVisualComponents\obj\Debug\NonVisualComponents.pdb

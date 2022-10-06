@@ -24,3 +24,11 @@ C:\Шестакова\COP\COP\obj\Debug\COP.csproj.GenerateResource.cache
 C:\Шестакова\COP\COP\obj\Debug\COP.csproj.CoreCompileInputs.cache
 C:\Шестакова\COP\COP\obj\Debug\COP.exe
 C:\Шестакова\COP\COP\obj\Debug\COP.pdb
+C:\Шестакова\COP\COP\bin\Debug\NonVisualComponents.dll
+C:\Шестакова\COP\COP\bin\Debug\Spire.XLS.dll
+C:\Шестакова\COP\COP\bin\Debug\Spire.Pdf.dll
+C:\Шестакова\COP\COP\bin\Debug\Microsoft.mshtml.dll
+C:\Шестакова\COP\COP\bin\Debug\NonVisualComponents.pdb
+C:\Шестакова\COP\COP\bin\Debug\Spire.XLS.xml
+C:\Шестакова\COP\COP\bin\Debug\Spire.Pdf.xml
+C:\Шестакова\COP\COP\obj\Debug\COP.csproj.CopyComplete
